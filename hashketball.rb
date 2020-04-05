@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 def game_hash
 hashketball = {:home => 
+=======
+game_hash = {:home => 
+>>>>>>> 46540d2ed311d4bd628b96142113c7dc2ee9a845
           {:team_name => "Brooklyn Nets", 
             :colors => ["Black", "White"], 
             :players => [
@@ -58,9 +62,15 @@ hashketball = {:home =>
                   :blocks => 11, 
                   :slam_dunks => 1
               }]
+<<<<<<< HEAD
             },
             :away => 
           {:team_name => "Charlotte Hornets", 
+=======
+            }},
+            {:away => 
+          {:team_name => "Charlotte Hornets"}, 
+>>>>>>> 46540d2ed311d4bd628b96142113c7dc2ee9a845
             :colors => ["Turquoise", "Purple"], 
             :players => [
               {
@@ -81,7 +91,11 @@ hashketball = {:home =>
                   :points => 12, 
                   :rebounds => 4, 
                   :assists => 7, 
+<<<<<<< HEAD
                   :steals => 22, 
+=======
+                  :steals =>22, 
+>>>>>>> 46540d2ed311d4bd628b96142113c7dc2ee9a845
                   :blocks => 15, 
                   :slam_dunks => 10
               },
@@ -119,5 +133,10 @@ hashketball = {:home =>
                   :slam_dunks => 12
               }]
             }
+<<<<<<< HEAD
 }
+=======
+def game_hash
+  return game_hash
+>>>>>>> 46540d2ed311d4bd628b96142113c7dc2ee9a845
 end
